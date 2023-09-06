@@ -11,10 +11,10 @@ $(document).ready(function () {
   $(window).scroll(function(){
     let pos = $(window).scrollTop();
 
-    if(pos>100){
-      $(".utill-menu").stop().slideUp(300);
+    if(pos>50){
+      $(".utill-menu").stop().slideUp('fast');
     }else{
-      $(".utill-menu").stop().slideDown(300);
+      $(".utill-menu").stop().slideDown('fast');
     };
 
     if(pos>500){
