@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>국립중앙도서관</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="css/iview.css">
+  <link rel="stylesheet" href="css/skin 2/style.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="utill-menu">
+        <ul>
+          <li><a href="#none">사서지원</a></li>
+          <li><a href="#none">공공도서관지원</a></li>
+          <li><a href="#none">지식정보통합검색</a></li>
+        </ul>
+        <ul>
+          <li><a href="#none">로그인</a></li>
+          <li><a href="#none">회원가입</a></li>
+          <li><a href="#none">내서재</a></li>
+          <li><a href="#none">바구니</a></li>
+          <li><a href="#none">ENGLISH</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="nav2">
+      <div class="NavMain">
+        <ul class="Logo">
+          <li><a href="#"><img src="image/Logo.jpg" alt="국립중앙박물관"></a></li>
+          <li><a href="#"><img src="image/slogan.png" alt="슬로건"></a></li>
+        </ul>
+        <ul class="gnb">
+          <li class="gnb-main">
+            <a href="#none">자료검색</a>
+            <ul class="gnb-subAll first">
+              <li><a href="#none">소장자료</a></li>
+              <li><a href="#none">디지털화 자료</a></li>
+              <li><a href="#none">지식정보 통합검색</a></li>
+              <li><a href="#none">Web DB</a></li>
+              <li><a href="#none">신착자료</a></li>
+              <li><a href="#none">사서추천도서</a></li>
+              <li><a href="#none">MZ세대 서가</a></li>
+              <li><a href="#none">영상자료 목록</a></li>
+              <li><a href="#none">국가자료종합목록</a></li>
+              <li><a href="#none">한국고문헌종합목록</a></li>
+              <li><a href="#none">국가전자도서관</a></li>
+              <li><a href="#none">근대문학종합목록</a></li>
+              <li><a href="#none">국가서지 LOD</a></li>
+              <li><a href="#none">본문검색 시범서비스</a></li>
+            </ul>
+          </li>
+          <li class="gnb-main">
+            <a href="#none">디지털컬렉션</a>
+            <ul class="gnb-subAll">
+              <li><a href="#none">주제별컬렉션</a></li>
+              <li><a href="#none">대한민국 신문 아카이브</a></li>
+              <li><a href="#none">관보</a></li>
+              <li><a href="#none">해외 한국 관련 자료</a></li>
+              <li><a href="#none">OAK국가리포지터리</a></li>
+              <li><a href="#none">오아시스(OASIS)</a></li>
+              <li><a href="#none">책 읽어주는 도서관</a></li>
+              <li><a href="#none">전시컬렉션(온라인전시)</a></li>
+              <li><a href="#none">세계의 도서관</a></li>
+              <li><a href="#none">동아시아 디지털도서관(EADL)</a></li>
+              <li><a href="#none">코리안 메모리(시범페이지)</a></li>
+              <li><a href="#none">NLK Labs</a></li>
+            </ul>
+          </li>
+          <li class="gnb-main">
+            <a href="#none">신청참여</a>
+            <ul class="gnb-subAll">
+              <li><a href="#none">자료신청안내</a></li>
+              <li><a href="#none">비치희망도서</a></li>
+              <li><a href="#none">상호대차</a></li>
+              <li><a href="#none">책다모아(기증)</a></li>
+              <li><a href="#none">저작권 이용허락</a></li>
+              <li><a href="#none">사서에게 물어보세요</a></li>
+              <li><a href="#none">나의 책,나의 인문기행</a></li>
+              <li><a href="#none">연구정보서비스</a></li>
+              <li><a href="#none">견학</a></li>
+              <li><a href="#none">예약</a></li>
+              <li><a href="#none">사회봉사</a></li>
+              <li><a href="#none">교육/문화프로그램</a></li>
+              <li><a href="#none">메일링서비스</a></li>
+              <li><a href="#none">연계 API</a></li>
+            </ul>
+          </li>
+          <li class="gnb-main">
+            <a href="#none">도서관 이용</a>
+            <ul class="gnb-subAll">
+              <li><a href="#none">집에서 이용하는 도서관</a></li>
+              <li><a href="#none">도서관 이용안내</a></li>
+              <li><a href="#none">이용증 발급안내</a></li>
+              <li><a href="#none">자료실 이용안내</a></li>
+              <li><a href="#none">도서관 일정</a></li>
+              <li><a href="#none">편의시설</a></li>
+              <li><a href="#none">자료복사</a></li>
+              <li><a href="#none">전시</a></li>
+              <li><a href="#none">자주하는 질문</a></li>
+              <li><a href="#none">설문조사</a></li>
+              <li><a href="#none">오류신고</a></li>
+              <li><a href="#none">분실물찾기</a></li>
+            </ul>
+          </li>
+          <li class="gnb-main">
+            <a href="#none">도서관 소개</a>
+            <ul class="gnb-subAll">
+              <li><a href="#none">국립중앙도서관</a></li>
+              <li><a href="#none">소속도서관</a></li>
+              <li><a href="#none">도서관 협력망</a></li>
+              <li><a href="#none">도서관소식</a></li>
+              <li><a href="#none">발간자료</a></li>
+              <li><a href="#none">정보공개</a></li>
+              <li><a href="#none">관내사이트 안내</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="sub_bgbox"></div>
+    </div>
+  </header>
+  <div class="aside">
+    <div class="asideMenu">
+      <ul class="quick_icon">
+        <li class="icon1">
+          <a href="https://blog.naver.com/dibrary1004" target="_blank"><img src="image/icon01.png" alt="blog"></a>
+        </li>
+        <li class="icon2">
+          <a href="https://ko-kr.facebook.com/national.library.of.korea" target="_blank"><img src="image/icon02.png" alt="facebook"></a>
+        </li>
+        <li class="icon3">
+          <a href="https://www.instagram.com/nationallibraryofkorea/" target="_blank"><img src="image/icon03.png" alt="instagram"></a>
+        </li>
+        <li class="icon4">
+          <a href="https://pf.kakao.com/_xlLdnC" target="_blank"><img src="image/icon04.png" alt="Kakao"></a>
+        </li>
+        <li class="icon5">
+          <a href="https://twitter.com/library1004" target="_blank"><img src="image/icon05.png" alt="twiter"></a>
+        </li>
+        <li class="icon6">
+          <a href="https://www.youtube.com/channel/UCKjWKI1yRlzWfgnF98HZ_TA" target="_blank"><img src="image/icon06.png" alt="youtube"></a>
+        </li>
+        <li class="icon7">
+          <a href="#"><span>TOP</span></a>
+        </li>
+      </ul>
+      <div class="trigger">
+        <div class="trigger_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div id="iview2">
+        <div data-iview:image="image/main-1.jpg" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom"
+          data-iview:pausetime="3000">
+        </div>
+
+        <div data-iview:image="image/main01.jpg" data-iview:transition="strip-right-fade,strip-left-fade">
+          <div class="iview-caption caption2" data-x="50" data-y="120" data-transition="fade">
+            <p>
+              <span>국립중앙도서관</span> <br> 데이터 활용 콘텐츠 제작 공모전
+            </p>
+            <p>
+              <strong>공모기간</strong>
+              <span class="dateDes">2023.8.1 ~ 11.10</span>
+              <strong>공모분야</strong>
+              <span>디지털콘텐츠<em>(시각화 대시보드,이미지,영상,웹툰,애니메이션,VR,AR,게임,기타)</em></span>
+              <br>
+              <strong>참가대상</strong>
+              <span>일반국민 누구나 <em>(개인 또는 단체)</em></span>
+            </p>
+          </div>
+        </div>
+        <div data-iview:image="image/main-2.jpg">
+          <div class="iview-caption caption3" data-x="900" data-y="120" data-transition="fade">
+            <p>
+              <span>2023년 책이음서비스</span> <br>아이디어 및 우수사례 공모
+            </p>
+            <p>
+              <strong>공모접수</strong>
+              <span class="dateDes">08.14~09.22</span>
+              <strong>공모주제</strong>
+              <span>책이음서비스 발전방안 및 이용활성화, 운영 우수사례</span>
+              <br>
+              <span>
+                <strong>책이음서비스?</strong>
+                국민들이 하나의 도서관 이용증으로 전국 책이음 참여도서관 이용 및 도서 대출서비스를 받을 수 있는 도서관 협력 서비스
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="marquee">
+    <p>
+      08월 31일 도서관 운영시간 09:00 ~ 18:00 (야간도서관 매주 수요일 18:00 ~ 21:00) ※ 둘째·넷째 월요일, 공휴일은 휴관일입니다.
+    </p>
+    <p>
+      <a href="#none">도서관 운영 및 예약안내 바로가기</a>
+    </p>
+  </div>
+  <div class="searchBg">
+    <div class="searchBox">
+      <h3><i class="fa-solid fa-book"></i>소장자료검색</h3>
+      <input type="search" placeholder="검색어를 입력해주세요">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </div>
+  
+  <section>
+    <div id="tabMenu">
+      <ul class="tabBtn">
+        <li data-alt="tab1" class="active">신착자료</li>
+        <li data-alt="tab2">MZ세대서가</li>
+        <li data-alt="tab3">사서추천도서</li>
+        <li data-alt="tab4">책읽어주는도서관</li>
+        <li data-alt="tab5">WebDB</li>
+      </ul>
+    </div>
+
+    <div class="tabContents">
+      <div id="tab1" class="tab banner active">
+        <div class="ban banS1">
+          <ul>
+            <li>
+              <a href="#none">
+                <img src="image/book-1.jpg" alt="book">
+                <p>셰익스피어 5대 희극: 사랑은 눈으로 보는 것이 아니라 마음으로 보는것이다</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-2.jpg" alt="book">
+                <p>사랑 참 우습죠</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-3.jpg" alt="book">
+                <p>마가복음</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-4.jpg" alt="book">
+                <p>교사 힐링 프로그램</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-5.jpg" alt="book">
+                <p>네 인생 우습지 않다: 인생 일타강사 전한길의 50가지 행복론</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-6.jpg" alt="book">
+                <p>딱 하나만 선택하라면, 운동</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="tab2" class="tab banner">
+        <div class="ban banS2">
+          <ul>
+            <li>
+              <a href="#none">
+                <img src="image/book-7.jpg" alt="book">
+                <p>일의 본질</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-8.jpg" alt="book">
+                <p>내 마음을 읽는 시간</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-9.jpg" alt="book">
+                <p>도둑맞은 뇌</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-10.jpg" alt="book">
+                <p>미래과거시제</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-11.jpg" alt="book">
+                <p>모자의나라 조선</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-12.jpg" alt="book">
+                <p>외로움, 수업</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="tab3" class="tab banner">
+        <div class="ban banS3">
+          <ul>
+            <li>
+              <a href="#none">
+                <img src="image/book-13.jpg" alt="book">
+                <p>아쿠아리움이 문을 닫으면</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-14.jpg" alt="book">
+                <p>한 권으로 읽는 미생물세계사</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-15.jpg" alt="book">
+                <p>기후를 위한 경제학</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-16.jpg" alt="book">
+                <p>이 또한 갓생</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-17.jpg" alt="book">
+                <p>소개팅에 진저리 난 사람들이 보는 책</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-18.jpg" alt="book">
+                <p>도시와 그 불확실한 벽</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="tab4" class="tab banner">
+        <div class="ban banS4">
+          <ul>
+            <li>
+              <a href="#none">
+                <img src="image/book-19.jpg" alt="book">
+                <p>이해총서: 영화의 이해</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-20.jpg" alt="book">
+                <p>이해총서: 영화 연기</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-21.jpg" alt="book">
+                <p>이해총서: 영화 흥행 요인</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-22.jpg" alt="book">
+                <p>이해총서: 장르영화</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-23.jpg" alt="book">
+                <p>이해총서: 영화색체 미학</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/book-24.jpg" alt="book">
+                <p>이해총서: SF영화와 로봇사회학</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="tab5" class="tab banner">
+        <div class="ban banS5">
+          <ul>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-1.png" alt="book">
+                <p>중국 학술저널 아카이브</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-2.png" alt="book">
+                <p>조선일보 아카이브</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-3.png" alt="book">
+                <p>동아일보 아카이브</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-4.png" alt="book">
+                <p>LISTA with Full Text</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-5.png" alt="book">
+                <p>Academic One File</p>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="image/webbook-6.png" alt="book">
+                <p>모아진: 국내최신잡지 200여종의 잡지이용</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ban_btn">
+        <span class="ban_left"><span class="material-symbols-outlined">arrow_left</span></span>
+        <span class="ban_right"><span class="material-symbols-outlined">arrow_right</span></span>
+      </div>
+    </div>
+
+    <div class="quickMenu">
+      <div class="quickMenu-inner">
+        <ul class="quickMenuBG">
+          <li><a href="#none"><img src="image/viewImage0.png" alt=""><p>도서관 방문 예약</p></a></li>
+          <li><a href="#none"><img src="image/viewImage1.png" alt=""><p>디지털 도서관 예약</p></a></li>
+          <li><a href="#none"><img src="image/viewImage2.png" alt=""><p>자료 당일 신청</p></a></li>
+          <li><a href="#none"><img src="image/viewImage3.png" alt=""><p>온라인 견학</p></a></li>
+          <li><a href="#none"><img src="image/viewImage4.png" alt=""><p>이용자교육</p></a></li>
+          <li><a href="#none"><img src="image/viewImage5.png" alt=""><p>편의시설</p></a></li>
+          <li><a href="#none"><img src="image/viewImage6.png" alt=""><p>찾아오시는 길</p></a></li>
+          <li><a href="#none"><img src="image/viewImage7.png" alt=""><p>환경설정</p></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="tabMenu2">
+      <ul class="tabBtn2">
+        <li data-alt="banTab1" class="active">주제별 컬렉션</li>
+        <li data-alt="banTab2">월드라이브러리</li>
+        <li data-alt="banTab3">세계의 도서관</li>
+      </ul>
+    </div>
+
+    <div class="tabContents2">
+      <div id="banTab1" class="Btab active">
+        <div class="Btab-Box">
+          <img src="image/banner1.png" alt="banner">
+          <p><strong>우리 문화의 거인 '이어령'</strong>우리 시대 최고의 지성이자 큰 스승인 <br>이어령의 삶과 글을 통해,<br>그가 남긴 지혜의 소산을 살펴 봅니다.<br><span class="material-symbols-outlined">keyboard_double_arrow_right</span><span class="viewmore">자세히 읽기</span></p>
+        </div>
+        <div class="Btab-Box">
+          <img src="image/banner2.png" alt="banner">
+          <p class="textR"><strong>조선의 판타지, 한국 고전 소설</strong>국립중앙도서관에 소장된 자료를<br> 중심으로 고전 소설의 역사와<br> 장르 및 현대적 의미를 살펴봅니다.<br><span class="viewmore2">자세히 읽기</span><span class="material-symbols-outlined">keyboard_double_arrow_right</span></p>
+        </div>
+      </div>
+      <div id="banTab2" class="Btab">
+        <div class="Btab-Box">
+          <img src="image/banner3.png" alt="banner">
+          <p class="textR textWorld">[2023] <strong>월드 라이브러리</strong> 2023년 7월 18일 432호 <br> 인공지능의 도서관<br><span class="viewmore2">자세히 읽기</span><span class="material-symbols-outlined">keyboard_double_arrow_right</span></p>
+        </div>
+        <div class="Btab-Box">
+          <img src="image/banner4.png" alt="banner">
+          <p class="textWorld2">[2023] <strong>월드 라이브러리</strong> 2023년 8월 16일 433호 <br> 일본공공도서관 서비스 동향<br><span class="material-symbols-outlined">keyboard_double_arrow_right</span><span class="viewmore">자세히 읽기</span></p>
+        </div>
+      </div>
+      <div id="banTab3" class="Btab">
+        <div class="Btab-Box">
+          <img src="image/banner5.png" alt="banner">
+          <p class="textR"><strong>스페인 국립도서관</strong>스페인 국립도서관은 마드리드 번화가에<br> 있는 레콜레토스 본관과 알깔라 데 <br>에나레스 시에 있는 분관...<br><span class="viewmore2">자세히 읽기</span><span class="material-symbols-outlined">keyboard_double_arrow_right</span></p>
+        </div>
+        <div class="Btab-Box">
+          <img src="image/banner6.png" alt="banner">
+          <p><strong>카타르 국립 도서관</strong>카타르는 최근 과학기술 발전과 <br>인재양성에 심혈을 기울이고<br>있습니다. 카타르...<br><span class="material-symbols-outlined">keyboard_double_arrow_right</span><span class="viewmore">자세히 읽기</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Tabs-3rd">
+      <div class="Tabs-3rd-inner">
+        <div class="tabMenu3">
+          <ul class="tabBtn3">
+            <li data-alt="Tabs-3rd1" class="active">공지사항</li>
+            <li data-alt="Tabs-3rd2">행사안내</li>
+            <li data-alt="Tabs-3rd3">인재채용</li>
+            <li><span class="material-symbols-outlined">add</span></li>
+          </ul>
+        </div>
+        <div class="tabContents3">
+          <ul id="Tabs-3rd1" class="Tabs-3rd active">
+            <li><b>[공지] 고문헌 무료상담 해드립니다.</b><span>2016-01-04</span></li>
+            <li><em>「OX퀴즈」 이벤트 안내</em><span>2023-09-04</span></li>
+            <li><em>2023년 「오늘의 도서관」 이용 만족도 설문조사</em><span>2023-09-04</span></li>
+            <li><em>국립중앙도서관 청년 디지털 봉사단 ‘잇(IT)다’3기 모집 안내</em><span>2023-08-29</span></li>
+            <li><em>2023년 국립중앙도서관 SNS 채널 이용 만족도 조사</em><span>2023-08-23</span></li>
+          </ul>
+
+          <ul id="Tabs-3rd2" class="Tabs-3rd">
+            <li><b>[공지] 고문헌 무료상담 해드립니다.</b> <span>2016-01-04</span></li>
+            <li><em>2023년 국가자료종합목록 참여기관 워크숍 개최 안내</em><span>2023-09-04</span></li>
+            <li><em>2023년「나의 책, 나의 인문기행」현장탐방(부산편) 안내</em><span>2023-08-14</span></li>
+            <li><em>제3차 「해설이 있는 K-컬처」 프로그램 안내</em><span>2023-08-08</span></li>
+            <li><em>국립중앙도서관‧국립중앙극장 공동기획전 ‘이야기, 무대에 오르다’ 전시 개최</em><span>2023-07-26</span></li>
+          </ul>
+
+          <ul id="Tabs-3rd3" class="Tabs-3rd">
+            <li><em>국립중앙도서관 기간제 근로자 채용 공고</em><span>2023-09-01</span></li>
+            <li><em>국립중앙도서관 국가서지과 기간제 근로자 (휴직대체) 채용 최종 합격자 공고</em><span>2023-08-18</span></li>
+            <li><em>국립중앙도서관 국가서지과 기간제 근로자(휴직대체) 채용 서류전형(1차)...</em><span>2023-08-07</span></li>
+            <li><em>국립중앙도서관 장서개발과 공무직 근로자 최종 합격자 공고</em><span>2023-07-28</span></li>
+            <li><em>2023년도 국립중앙도서관 공무원 9급(방호) 경력경쟁채용시험 최종합격자 공고</em><span>2023-07-24</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Tabs-3rd-News">
+        <div class="tabMenu4">
+          <ul class="tabBtn4">
+            <li data-alt="newsTab1" class="active">포토뉴스</li>
+            <li data-alt="newsTab2">카드뉴스</li>
+            <li data-alt="newsTab3">보도자료</li>
+            <li data-alt="newsTab4">영상뉴스</li>
+            <li><span class="material-symbols-outlined">add</span></li>
+          </ul>
+        </div>
+        <div class="tabContents4">
+          <ul id="newsTab1" class="newsTap active">
+            <li>
+              <img src="image/news-01.jpg" alt="news">
+              <p><em>2023.08.25-2023년 OAK 리포지터리 운..</em></p>
+              <span>2023-09-01</span>
+            </li>
+            <li>
+              <img src="image/news-02.jpg" alt="news">
+              <p><em>2023.08.03-2023년 제3기 '대학생 도서관'..</em></p>
+              <span>2023-08-04</span>
+            </li>
+          </ul>
+          <ul id="newsTab2" class="newsTap">
+            <li>
+              <img src="image/news-03.jpg" alt="news">
+              <p><em>국립중앙도서관과 함께하는 책이음서비스..</em></p>
+              <span>2023-08-21</span>
+            </li>
+            <li>
+              <img src="image/news-04.jpg" alt="news">
+              <p><em>잃어버린 우리말 땅이름</em></p>
+              <span>2023-07-07</span>
+            </li>
+          </ul>
+          <ul id="newsTab3" class="newsTap">
+            <li>
+              <img src="image/news-05.jpg" alt="news">
+              <p><em>'K-도서관' 영국에 한국문화 매력 전파</em></p>
+              <span>2023-08-29</span>
+            </li>
+            <li>
+              <img src="image/news-06.jpg" alt="news">
+              <p><em>전국 도서관을 하나로, 책이름서비스 전국..</em></p>
+              <span>2023-08-24</span>
+            </li>
+          </ul>
+          <ul id="newsTab4" class="newsTap">
+            <li>
+              <img src="image/news-07.jpg" alt="news">
+              <p><em>[2023년 8월] 국립중앙도서관 사서추천도서</em></p>
+              <span>2023-08-24</span>
+            </li>
+            <li>
+              <img src="image/news-08.jpg" alt="news">
+              <p><em>[2023년 6월] 국립중앙도서관 사서추천도서</em></p>
+              <span>2023-06-22</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="BottomBanner">
+      <div class="banTitle">
+        <h4>누리소통망</h4>
+        <ul>
+          <li><a href="#none"><img src="image/icon01.png" alt="blog"></a></li>
+          <li><a href="#none"><img src="image/icon02.png" alt="facebook"></a></li>
+          <li><a href="#none"><img src="image/icon03.png" alt="instagram"></a></li>
+          <li><a href="#none"><img src="image/icon04.png" alt="Kakao"></a></li>
+          <li><a href="#none"><img src="image/icon05.png" alt="twiter"></a></li>
+          <li><a href="#none"><img src="image/icon06.png" alt="youtube"></a></li>
+        </ul>
+      </div>
+      <div class="banner-Inner">
+        <ul class="ban_list">
+          <li>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img01.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.08.30</span>
+                <p>
+                  [오늘의 만남] 김동기 요리사<br>
+                  맛으로 그리는 음식의 세계 '오늘의 도서관' 9월호에서는 비스트로에서 특 1급 호텔까지 다양한 곳에서 경력을 쌓아온 국가대표 김동기 요리사를 만나보았습니다. <br>
+                  예비셰프들을 위해 자신만의 요리내공과 핵심 조언을 가득 담은 책을 펴냈다고 하는데요...<br>
+                  <em>#국립중앙도서관 #도서관 #오늘의도서관 #오늘의만남 #김동기 #요리사 #셰프 #셰프맛으로세계를그리다</em>
+                </p>
+              </div>
+            </div>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img02.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.08.29</span>
+                <p>
+                  [국중 밸런스게임] 당신의 선택은?<br>
+                  주목박는 주인공 VS 매력적인 주변 인물 동화책이나 소설을 읽다가 책 속 이야기에 몰입하는 것을 넘어, 등장인물이 되어보는 상상을 해 본 적이 있으신가요? ...<br>
+                  <em>#국립중앙도서관 #밸런스게임 #국중밸런스게임 #도서관 #독서 #도서 #주인공 #주변인물 #책스타그램 #북스타그램</em>
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img03.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.09.04</span>
+                <p>
+                  기록으로 살펴보는 조상들의 지혜<br>
+                  매년 9월 4일은 지식재산의 날인데요. 지식재산의 날은 지식재산권에 대한 중요성을 알리고 지식재산이 존중받는 사회 환경을 조성하기 위해 제정된 국가기념일입니다. 2001년 9월 4일 현존하는 세계에서 가장 오래된 금속활자본 '직지심체요절'...<br>
+                  <em>#국립중앙도서관 #도서관 #도서 #독서 #지식재산의날 #유네스코세계문화유산 #직지심체요절 #동의보감 #의학 #허준</em>
+                </p>
+              </div>
+            </div>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img04.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.08.29</span>
+                <p>
+                  「OX퀴즈」이벤트 안내
+                  「실감서재」와 「지식의 길」에서 OX퀴즈 이벤트를 진행합니다.
+                  OX퀴즈 정답을 맞추고, 실감체험관을 소개해주고 싶은 지인들을 댓글에 태그해주세요. <br>
+                  총 100분을 선정하여 5,000원 커피 기프티콘을 선물로 드립니다!
+                  여러분이 책 속 인물이 될 수 있다면, 어떤 선택을 하고 싶으신가요?<br>
+                  <em>#국립중앙도서관 #실감서재 #지식의길 #실감체험관 #퀴즈이벤트 #OX퀴즈</em>
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img05.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.09.04</span>
+                <p>
+                  엇갈린 시간 속 더욱 빛나는 사랑 - 벤자민 버튼의 시간은 거꾸로 간다<br>
+                  2009년 개봉한 '벤자민 버튼의 시간은 거꾸로 간다'는 프란시스 스콧 피츠제럴드 작가의 단편 소설인 [벤자민 버튼의 기이한 사건]을 원작으로 제작된 영화 입니다....<br>
+                  <em>#국립중앙도서관 #도서관 #영화가된문학 #영화 #벤자민버튼의시간은거꾸로간다 #벤자민 #브래드피트</em>
+                </p>
+              </div>
+            </div>
+            <div class="ban-des">
+              <div class="ban-img">
+                <img src="image/ban-img06.jpg" alt="">
+              </div>
+              <div class="ban-text">
+                <h5>국립중앙도서관</h5>
+                <span>2023.08.29</span>
+                <p>
+                  [2023]년 오늘의 도서관 이용 만족도 설문조사 <br>
+                  「오늘의 도서관」 이용 만족도 설문조사를 실시하오니 많은 참여 부탁드립니다. 💖
+                  
+                  <br>📌참여방법
+                  링크에 접속하여 만족도 조사 설문 문항 작성 후 제출하면 끝!
+                  <br>📌기간 : 2023. 9. 4.(월)~ 9. 17.(일)
+                  <br>📌설문조사 바로가기
+                  <a href="https://forms.gle/gd9K1KwjF46PUnGt8">https://forms.gle/gd9K1KwjF46PUnGt8</a><br>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="nbtn"> 
+          <span class="nleft"><i class="fa fa-angle-double-left"></i> </span>
+          <span class="nright"><i class="fa fa-angle-double-right"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-Banner">
+      <h6>자주찾는 서비스</h6>
+      <div class="sub-Banner-inner">
+        <ul>
+          <li><a href="#none"><img src="image/subban-01.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-02.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-03.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-04.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-05.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-06.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-07.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-08.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban-09.jpg" alt="banner"></a></li>
+        </ul>
+      </div>
+      <div class="subban_btn">
+        <span class="subban_left"><span class="indent">이전글</span></span>
+        <span class="subban_right"><span class="indent">다음글</span></span>
+      </div>
+    </div>
+
+    <div class="subB2">
+      <h6>납본,문헌번호 신청 등</h6>
+      <div class="subB2-inner">
+        <ul>
+          <li><a href="#none"><img src="image/subban2-01.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban2-02.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban2-03.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban2-04.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban2-05.jpg" alt="banner"></a></li>
+          <li><a href="#none"><img src="image/subban2-06.jpg" alt="banner"></a></li>
+        </ul>
+      </div>
+      <div class="subban_btn subban_Btn2">
+        <span class="subban_L_Btn2"><span class="indent">이전글</span></span>
+        <span class="subban_R_Btn2"><span class="indent">다음글</span></span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerTop">
+      <ul>
+        <li><a href="#none">원격헬프데스크</a></li>
+        <li><a href="#none">국민신문고</a></li>
+        <li><a href="#none">클린신고센터</a></li>
+        <li><a href="#none">찾아오시는 길</a></li>
+        <li><a href="#none">사이트맵</a></li>
+        <li><a href="#none">누리집 이용가이드</a></li>
+        <li><a href="#none">뷰어프로그램안내</a></li>
+      </ul>
+    </div>
+    <div class="footerMain">
+      <div class="footerMiddle">
+        <ul class="footerMiddleLeft">
+          <li><a href="#none">개인정보처리방침</a></li>
+          <li><a href="#none">국립중앙도서관 윤리강령</a></li>
+          <li><a href="#none">도서관법령</a></li>
+          <li><a href="#none">이용봉사현장</a></li>
+          <li><a href="#none">사전정보공개</a></li>
+          <li><a href="#none">저작권정책</a></li>
+        </ul>
+        <div class="selectBox">
+            <ul class="selectBox-in">
+            <li class="selectBox-main"><a href="#none">유관사이트</a>
+              <ul class="selectBox-sub">
+                <li data-alt="selectTab1"><a href="#none">국립어린이청소년도서관</a></li>
+                <li data-alt="selectTab2"><a href="#none">국립세종도서관</a></li>
+                <li data-alt="selectTab3"><a href="#none">국립장애인도서관</a></li>
+                <li data-alt="selectTab4"><a href="#none">공공데이터포탈</a></li>
+                <li data-alt="selectTab5"><a href="#none">국민권익위원회</a></li>
+                <li data-alt="selectTab6"><a href="#none">정부24</a></li>
+                <li data-alt="selectTab7"><a href="#none">문화체육관광부</a></li>
+                <li data-alt="selectTab8"><a href="#none">한국언론진흥제단</a></li>
+                <li data-alt="selectTab9"><a href="#none">외규장각 의궤</a></li>
+                <li data-alt="selectTab10"><a href="#none">국회도서관</a></li>
+                <li data-alt="selectTab11"><a href="#none">도서관정보정책위원회</a></li>
+                <li data-alt="selectTab12"><a href="#none">법원도서관</a></li>
+                <li data-alt="selectTab13"><a href="#none">간행물윤리위원회</a></li>
+                <li data-alt="selectTab14"><a href="#none">한국도서관협회</a></li>
+                <li data-alt="selectTab15"><a href="#none">한국문화예술저작권협회</a></li>
+                <li data-alt="selectTab16"><a href="#none">국가도서관통계시스템</a></li>
+                <li data-alt="selectTab17"><a href="#none">(사)공공도서관협의회</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="footerEnd">
+        <li><img src="image/Logo.jpg" alt="Logo"></li>
+        <li>
+          <p>
+            우편번호 06579 서울특별시 서초구 반포대로 201(반포동) <br>
+            문의전화 02-590-0500 팩스 02-590-0530 <br>
+            Copyright&copy; National Library of Korea. All right reserved
+          </p>
+        </li>
+        <li>
+          <a href="#none"><img src="image/footLogo01.png" alt="footerLogo"></a>
+          <a href="#none"><img class="fLogo2" src="image/footLogo02.png" alt="footerLogo"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- Script Source -->
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/prefixfree.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/iview.js"></script>
+  <script type="text/javascript" src="js/raphael-min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#iview2').iView({
+        pauseTime: 7000,
+        pauseOnHover: true,
+        directionNav: true,
+        directionNavHide: false,
+        controlNav: true,
+        controlNavNextPrev: false,
+        controlNavTooltip: false,
+        nextLabel: "Próximo",
+        previousLabel: "Anterior",
+        playLabel: "Jugada",
+        pauseLabel: "Pausa",
+        timer: "360Bar",
+        timerBg: "#EEE",
+        timerColor: "#000",
+        timerDiameter: 40,
+        timerPadding: 4,
+        timerStroke: 8,
+        timerPosition: "bottom-right"
+      });
+
+    });
+  </script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
